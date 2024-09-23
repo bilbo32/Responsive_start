@@ -35,11 +35,17 @@ header {
     margin: 0;
     font-size: 1.2rem;
     font-weight: $normalWeight;
+    flex: 1;
   }
 }
-
+//phone number on top right hand corner
+#phone_number {
+  color: $fontColor;
+  text-align: right;
+  
+}
 #navWrapper {
-  background-color: bisque;
+  background-color: aquamarine;
 }
 
 nav {
@@ -50,19 +56,22 @@ nav {
     display: flex;
 
     li {
-      flex: 1;
+     //flex: 1;
+     margin: .25rem;
     }
   }
 
   li.active {
-    background-color: aquamarine;
+    background-color: #abc;
+    border-radius: 10px;
+    margin: .25rem;
   }
 
   a {
     display: block;
     padding: 0.75rem;
     color: #80002b;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
 
     &:hover {
