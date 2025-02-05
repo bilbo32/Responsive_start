@@ -361,6 +361,7 @@ nav ul {
 }
 nav ul li {
   flex: 1;
+  background-color: #f78aae;
 }
 nav li.active {
   background-color: aquamarine;
